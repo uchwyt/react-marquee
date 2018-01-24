@@ -19,7 +19,7 @@
   "author": "jasonslyvia <jasonslyvia@gmail.com> (http://undefinedblog.com/)",
   "license": "MIT",
   "dependencies": {
-    "classnames": "^2.2.5",
+    "classnames": "^2.2.5"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
@@ -31,5 +31,5 @@
   "peerDependencies": {
     "react": "^0.16.0",
     "react-dom": "^0.16.0"
-  },
+  }
 }
