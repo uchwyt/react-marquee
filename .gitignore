@@ -3,3 +3,6 @@ bundle.js
 *.map
 test/coverage
 .coveralls.yml
+.idea
+coverage
+package-lock.json
