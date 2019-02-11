@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReactMarque render text with custom class 1`] = `
+<div
+  className="Marquee-root-0-1-1 Marquee-root-0-1-6 test-class"
+>
+  <span
+    className="Marquee-inner-0-1-2 Marquee-inner-0-1-7 inner-class"
+  >
+    Test text
+  </span>
+</div>
+`;
+
+exports[`ReactMarque render text with default props 1`] = `
+<div
+  className="Marquee-root-0-1-1 Marquee-root-0-1-4"
+>
+  <span
+    className="Marquee-inner-0-1-2 Marquee-inner-0-1-5"
+  >
+    Test text
+  </span>
+</div>
+`;
+
+exports[`ReactMarque render with custom delay 1`] = `
+<div
+  className="Marquee-root-0-1-1 Marquee-root-0-1-4"
+>
+  <span
+    className="Marquee-inner-0-1-2 Marquee-inner-0-1-5"
+  >
+    Test text
+  </span>
+</div>
+`;
+
+exports[`ReactMarque render with custom delay 2`] = `
+".Marquee-root-0-1-1 {
+  overflow: hidden;
+  position: relative;
+  padding-left: 100%;
+}
+.Marquee-root-0-1-1:hover, .Marquee-root-0-1-1:hover .Marquee-inner-0-1-2 {
+  animation-play-state: paused;
+}
+.Marquee-inner-0-1-2 {
+  display: inline-block;
+  white-space: nowrap;
+}
+@keyframes reduce {
+  to {
+    padding-left: 0;
+  }
+}
+@keyframes scroll {
+  to {
+    transform: translateX(-100%);
+  }
+}
+.Marquee-loop-0-1-3, .Marquee-loop-0-1-3 .Marquee-inner-0-1-2 {
+  animation-iteration-count: infinite;
+}
+.Marquee-root-0-1-4 {
+  animation: reduce 40s linear 100s 1 normal;
+}
+.Marquee-inner-0-1-5 {
+  animation: scroll 40s linear 100s 1 normal;
+}"
+`;
+
+exports[`ReactMarque render with custom direction 1`] = `
+<div
+  className="Marquee-root-0-1-1 Marquee-root-0-1-4"
+>
+  <span
+    className="Marquee-inner-0-1-2 Marquee-inner-0-1-5"
+  >
+    Test text
+  </span>
+</div>
+`;
+
+exports[`ReactMarque render with custom direction 2`] = `
+".Marquee-root-0-1-1 {
+  overflow: hidden;
+  position: relative;
+  padding-left: 100%;
+}
+.Marquee-root-0-1-1:hover, .Marquee-root-0-1-1:hover .Marquee-inner-0-1-2 {
+  animation-play-state: paused;
+}
+.Marquee-inner-0-1-2 {
+  display: inline-block;
+  white-space: nowrap;
+}
+@keyframes reduce {
+  to {
+    padding-left: 0;
+  }
+}
+@keyframes scroll {
+  to {
+    transform: translateX(-100%);
+  }
+}
+.Marquee-loop-0-1-3, .Marquee-loop-0-1-3 .Marquee-inner-0-1-2 {
+  animation-iteration-count: infinite;
+}
+.Marquee-root-0-1-4 {
+  animation: reduce 40s linear 0s 1 alternate-reverse;
+}
+.Marquee-inner-0-1-5 {
+  animation: scroll 40s linear 0s 1 alternate-reverse;
+}"
+`;
+
+exports[`ReactMarque render with custom timeout 1`] = `
+<div
+  className="Marquee-root-0-1-1 Marquee-root-0-1-4"
+>
+  <span
+    className="Marquee-inner-0-1-2 Marquee-inner-0-1-5"
+  >
+    Test text
+  </span>
+</div>
+`;
+
+exports[`ReactMarque render with custom timeout 2`] = `
+".Marquee-root-0-1-1 {
+  overflow: hidden;
+  position: relative;
+  padding-left: 100%;
+}
+.Marquee-root-0-1-1:hover, .Marquee-root-0-1-1:hover .Marquee-inner-0-1-2 {
+  animation-play-state: paused;
+}
+.Marquee-inner-0-1-2 {
+  display: inline-block;
+  white-space: nowrap;
+}
+@keyframes reduce {
+  to {
+    padding-left: 0;
+  }
+}
+@keyframes scroll {
+  to {
+    transform: translateX(-100%);
+  }
+}
+.Marquee-loop-0-1-3, .Marquee-loop-0-1-3 .Marquee-inner-0-1-2 {
+  animation-iteration-count: infinite;
+}
+.Marquee-root-0-1-4 {
+  animation: reduce 100s linear 0s 1 normal;
+}
+.Marquee-inner-0-1-5 {
+  animation: scroll 100s linear 0s 1 normal;
+}"
+`;
+
+exports[`ReactMarque render with loop class 1`] = `
+<div
+  className="Marquee-root-0-1-1 Marquee-root-0-1-8 Marquee-loop-0-1-3"
+>
+  <span
+    className="Marquee-inner-0-1-2 Marquee-inner-0-1-9"
+  >
+    Test text
+  </span>
+</div>
+`;

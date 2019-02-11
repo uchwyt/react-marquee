@@ -46,14 +46,14 @@ class Marquee extends React.PureComponent {
 }
 
 Marquee.propTypes = {
-  text: PropTypes.node,
+  text: PropTypes.node.isRequired,
   className: PropTypes.string,
-  timeout: PropTypes.number,
   classes: PropTypes.object,
   classInner: PropTypes.string,
-  loop: PropTypes.bool,
   delay: PropTypes.number,
   direction: PropTypes.oneOf(['normal', 'reverse', 'alternate', 'alternate-reverse', 'initial', 'inherit']),
+  loop: PropTypes.bool,
+  timeout: PropTypes.number,
 };
 
 Marquee.defaultProps = {
